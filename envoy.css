@@ -1,0 +1,145 @@
+:root {
+  --search-result-title: var(--color-primary);
+  --result-item-title-border: var(--color-primary);
+  --icon-new-ia-color: initial;
+  --circle-color: rgb(123, 113, 188);
+  --kagi-sky-i: rgb(123, 113, 188) !important;
+  --hover-color: #7b71bc;
+  --dark-bg: #17191e;
+  --darker-bg: #0d0e11;
+  --purple-gray-bg: #232238; /* Novo tom de cinza roxado */
+}
+
+body {
+  font-family: monospace;
+}
+
+/* Logo SVG color */
+.logo > svg:nth-child(1),
+.logo_kagi > svg:nth-child(1) {
+  fill: var(--hover-color);
+  color: var(--hover-color);
+}
+
+/* Dog icon circle color */
+.doggo_sit_a > svg:nth-child(1) > path:nth-child(23),
+.doggo_sit_a > svg:nth-child(1) > path:nth-child(24) {
+  fill: var(--hover-color);
+}
+
+/* Links and Titles */
+.__sri-title .__sri_title_link,
+.__srgi-title a,
+._0_summarize_link a,
+.k_ui_dropdown .k_ui_dropdown_first_item,
+a {
+  color: var(--search-result-title);
+  border-bottom: 1px solid var(--result-item-title-border);
+  transition: color 0.15s ease;
+}
+
+.__sri-title .__sri_title_link:visited,
+.__srgi-title a:visited {
+  color: var(--color-primary_visited);
+  border-bottom-color: var(--color-primary_visited);
+}
+
+.__sri-title .__sri_title_link:hover,
+.__srgi-title a:hover,
+._0_summarize_link a:hover,
+.k_ui_dropdown .k_ui_dropdown_first_item:hover,
+a:hover,
+.dropdown .dd-toggle-label:hover,
+._0_results_summary_links.ol a:hover {
+  color: var(--hover-color);
+  border-bottom-color: var(--hover-color);
+}
+
+/* Buttons */
+.btn.--yellow {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #FFFFFF;
+  transition: all 0.15s ease;
+}
+
+.btn.--yellow:hover {
+  border-color: var(--hover-color);
+  transform: scale(1.05);
+}
+
+.btn.--yellow:hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 1rem 0.5rem var(--hover-color);
+  opacity: 0.6;
+}
+
+/* Search Modes and Categories */
+.landing-category-select button.n_se.--active,
+.landing-category-select button.n_se:hover,
+._0_d_info_ranking.k_ui_btn_group .search_mode_box_s input:checked + a.k_ui_btn,
+._0_sri-w-highlight .search_mode_box_s a.searchResultAnswer,
+.search_mode_box_s a.--active,
+.search_mode_box_s a._0_sri-w-highlight.box,
+.search_mode_box_s a.box:hover {
+  background-color: #ffb319;
+  border-color: #ffb319;
+  color: var(--color-primary);
+}
+
+/* New rule for search result answer */
+._0_sri-w-highlight .search_mode_box_s a.searchResultAnswer,
+.search_mode_box_s ._0_sri-w-highlight a.searchResultAnswer,
+.search_mode_box_s a.--active {
+  color: #191919;
+}
+
+/* Toggle Switch */
+.k_ui_toggle_switch.--enabled .k_ui_toggle_switch_bar {
+  background-color: var(--hover-color);
+}
+
+/* Search Results and Boxes */
+.sri-group,
+.search-result,
+.scene,
+.weather_days_box {
+  background-color: var(--purple-gray-bg);
+  border-radius: 12px;
+  margin-bottom: 1.3rem;
+  padding: 1rem;
+}
+
+#myip,
+#conversions {
+  background-color: var(--purple-gray-bg);
+}
+
+.weather_day {
+  border: 1px solid black;
+}
+
+/* Icons */
+#icon_new_ia {
+  color: var(--icon-new-ia-color);
+}
+
+.search_mode_toggle i.oSea {
+  color: #191919;
+}
+
+/* Misc */
+button#searchFormSubmitBtn {
+  display: none !important;
+}
+
+button#orbSubmitBtn {
+  display: none !important;
+}
+
+.__srgi-title a {
+  font-size: 1rem;
+}
