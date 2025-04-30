@@ -27,6 +27,11 @@ body {
   fill: var(--hover-color);
 }
 
+/* Cor da medalha no ícone do cachorro */
+.doggo_sit_a > svg:nth-child(1) > ellipse:nth-child(19) {
+  fill: #7b71bc;
+}
+
 /* Links and Titles */
 .__sri-title .__sri_title_link,
 .__srgi-title a,
