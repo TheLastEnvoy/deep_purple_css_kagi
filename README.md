@@ -12,11 +12,20 @@ Envoy Kagi CSS is a stylish dark theme for the Kagi search engine that brings a 
 
 # 📷 Preview
 
-Start Page
+Start Page Web
 ![Descrição da imagem](kagiMain.png)
 
-Search Results
+Search Results Web
 ![Descrição da imagem](kagiSearching.png)
+
+Start Page on Mobile
+![Descrição da imagem](mobileKagiMain.jpeg)
+
+
+Search Results Mobile
+![Descrição da imagem](mobileKagiSearching.jpeg)
+
+
 
 # 🚀 Installation
 
