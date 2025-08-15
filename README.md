@@ -2,10 +2,6 @@
 
 > A sleek, dark theme for Kagi search engine inspired by Hacker Monokai
 
-[
-[
-[
-
 ✨ Overview
 
 Envoy Kagi CSS is a stylish dark theme for the Kagi search engine that brings a modern, eye-pleasing aesthetic to your search experience. While initially inspired by maxpl01t's Kagi Hacker Monokai theme, this style offers its own unique look and feel with carefully chosen color schemes and visual enhancements.
